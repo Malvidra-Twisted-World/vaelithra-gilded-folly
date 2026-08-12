@@ -1,0 +1,12 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("D&D/Original Adventures/Vaelithra/4. GIlded Folly")
+        - file.hasTag("module")
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 150
+    image: note.image
